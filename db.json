@@ -1,0 +1,19 @@
+{
+    "articles":[
+        {
+            "id": "1",
+            "title": "judul 1",
+            "content":"centent 1"
+        },
+        {
+            "id": "2",
+            "title": "judul 2",
+            "content":"centent 2"
+        },
+        {
+            "id": "3",
+            "title": "judul 3",
+            "content":"centent 3"
+        }
+    ]
+}
