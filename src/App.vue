@@ -60,6 +60,9 @@ export default {
     async load() {
       try {
         const response = await fetch('/db.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data = await response.json();
         this.articles = data.articles;
       } catch (error) {
